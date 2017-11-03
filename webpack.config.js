@@ -20,6 +20,9 @@ var config = {
             test: /\.(css|scss)/,
             use: ExtractTextPlugin.extract('css-loader!sass-loader')
         }, {
+            test: /\.(woff|woff2|ttf|eot)(\?\S*)?$/,
+            use: ['file-loader?name=[name].[ext]&outputPath=fonts/', ]
+        }, {
             test: /\.(png|svg|jpe?g|gif)/,
             use: [
                 'file-loader?name=[name].[ext]&outputPath=images/',
