@@ -1,4 +1,4 @@
-export default function() {
+export default () => {
     return [
         { title: 'Javascript the good parts' },
         { title: 'Harry Potter' },

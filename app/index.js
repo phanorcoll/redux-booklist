@@ -10,10 +10,10 @@ import style from './scss/main.scss'
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 
-ReactDom.render( 
-<Provider store={createStoreWithMiddleware(reducers)}>
-< App / > 
-</Provider>
-,
+ReactDom.render(
+    <Provider store={createStoreWithMiddleware(reducers)}>
+        < App />
+    </Provider>
+    ,
     document.getElementById('app')
 )
