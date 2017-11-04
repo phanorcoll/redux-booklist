@@ -11,8 +11,8 @@ class BookList extends Component {
                 <li
                     onClick={() => this.props.seleccionado(book)}
                     key={book.title}
-                    className="list-group-item" >
-                    {book.title}
+                    className="list-group-item grow" >
+                    <i class="fa fa-book" aria-hidden="true"></i> {book.title}
                 </li>
             );
         });

@@ -6,7 +6,7 @@ class BookDetail extends Component {
             return <div>select a book</div>
         }
         return (
-            <div>
+            <div className="detail-wrapper">
                 <h3>Details for:</h3>
                 <div>Title: {this.props.book.title}</div>
                 <div>Pages: {this.props.book.pages}</div>
