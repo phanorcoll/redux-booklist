@@ -6,7 +6,6 @@ using
 - Redux
 - Reactjs
 - webpack
-- ES6 Arrow Function Compilation withing classes
 - Bootstrap 4
 
 
